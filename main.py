@@ -8,10 +8,11 @@ def sum_of_products(list1, list2):
         sum += (int(list1[i]) * int(list2[i]))
     return sum
 
-list1 = input("Enter first number:")
-list2 = input("Enter second number:")
 
 if __name__ == '__main__':
+    list1 = input("Enter first number:")
+    list2 = input("Enter second number:")
+
     if len(list1) != len(list2):
         print("Error")
 
