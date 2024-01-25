@@ -11,10 +11,9 @@ def sum_of_products(list1, list2):
 list1 = input("Enter first number:")
 list2 = input("Enter second number:")
 
-if len(list1) != len(list2):
-    print("Error")
+if __name__ == '__main__':
+    if len(list1) != len(list2):
+        print("Error")
 
-if len(list1) == len(list2):
-    print(sum_of_products(list1, list2))
-
-print()
+    if len(list1) == len(list2):
+        print(sum_of_products(list1, list2))
