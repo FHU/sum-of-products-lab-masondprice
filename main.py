@@ -16,3 +16,5 @@ if len(list1) != len(list2):
 
 if len(list1) == len(list2):
     print(sum_of_products(list1, list2))
+
+print()
